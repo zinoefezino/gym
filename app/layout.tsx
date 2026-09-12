@@ -10,7 +10,7 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Forge Fitness",
+  title: "Gym Fitness",
   description:
     "Train with purpose. Classes, coaching, and a gym floor built for real progress.",
 };
