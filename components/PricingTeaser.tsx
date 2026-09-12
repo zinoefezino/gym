@@ -56,7 +56,7 @@ export default function PricingTeaser() {
             </h2>
           </div>
           <div className="flex flex-wrap items-end justify-between gap-6 lg:pb-1">
-            <p className="max-w-md text-base leading-relaxed text-charcoal/65">
+            <p className="max-w-md text-base leading-relaxed text-charcoal/65 lg:ml-auto lg:text-right">
               Start with one session or make Gym part of your week. Choose the
               level of support that will keep you coming back.
             </p>

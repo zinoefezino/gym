@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function FinalCta() {
   return (
-    <section className="bg-charcoal px-6 py-24 lg:px-10">
-      <div className="mx-auto max-w-7xl">
-        <div className="flex flex-col items-center bg-red px-6 py-16 text-center sm:px-16">
+    <section className="bg-charcoal py-24">
+      <div className="flex flex-col items-center overflow-hidden bg-red px-6 py-16 text-center shadow-[inset_0_18px_35px_-25px_var(--color-charcoal),inset_0_-18px_35px_-25px_var(--color-charcoal)] sm:px-16">
+        <div className="mx-auto max-w-7xl flex flex-col items-center">
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-offwhite sm:text-5xl">
             Stop planning. Start training.
           </h2>
