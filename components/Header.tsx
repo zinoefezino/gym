@@ -25,7 +25,7 @@ export default function Header() {
           onClick={() => setOpen(false)}
         >
           <span className="text-2xl font-bold tracking-tight text-offwhite">
-            Forge
+            Gym
             <span className="text-red">.</span>
           </span>
         </Link>

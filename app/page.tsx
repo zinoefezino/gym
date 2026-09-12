@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="flex-1">
       <Hero />
-      <TrustStrip />
+      {/* <TrustStrip /> */}
       <ClassPreviews />
       <TrainersTeaser />
       <PricingTeaser />

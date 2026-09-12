@@ -33,7 +33,7 @@ export default function Footer() {
               href="/"
               className="text-2xl font-bold tracking-tight text-offwhite"
             >
-              Forge
+              Gym
               <span className="text-red">.</span>
             </Link>
             <p className="mt-4 max-w-xs text-sm text-gray">
@@ -116,16 +116,14 @@ export default function Footer() {
                   strokeWidth={1.75}
                   className="shrink-0 text-red"
                 />
-                hello@forgefitness.com
+                hello@gymfitness.com
               </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-gray/20 pt-8 text-sm text-gray sm:flex-row">
-          <p>
-            © {new Date().getFullYear()} Forge Fitness. All rights reserved.
-          </p>
+          <p>© {new Date().getFullYear()} Gym Fitness. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/" className="transition-colors hover:text-offwhite">
               Privacy Policy
