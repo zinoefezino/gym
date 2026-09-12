@@ -19,7 +19,7 @@ export default function Hero() {
             Show up. Get stronger. Repeat.
           </h1>
           <p className="mt-6 max-w-lg text-lg text-offwhite/70">
-            Forge is built around real coaching, honest programming, and a floor
+            Gym is built around real coaching, honest programming, and a floor
             that pushes you further every single session.
           </p>
 
