@@ -7,12 +7,12 @@ const trainers = [
   {
     name: "Marcus Reid",
     role: "Strength & Conditioning",
-    image: "/img4.jpg",
+    image: "/img4.avif",
   },
   {
     name: "Dara Chen",
     role: "Head Coach, Powerlifting",
-    image: "/img6.jpg",
+    image: "/img6.avif",
   },
   {
     name: " Lucy Kent",
@@ -43,15 +43,16 @@ export default function TrainersTeaser() {
             <Link
               key={trainer.name}
               href="/trainers"
-              className="group relative flex aspect-[4/5] flex-col justify-end overflow-hidden"
+              className="group relative flex aspect-4/5 flex-col justify-end overflow-hidden"
             >
               <Image
                 src={trainer.image}
                 alt={trainer.name}
                 fill
+                loading="lazy"
                 className="object-cover grayscale transition-all duration-300 group-hover:grayscale-0"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/30 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-charcoal via-charcoal/30 to-transparent" />
               <div className="relative z-10 p-6">
                 <h3 className="text-lg font-bold text-offwhite">
                   {trainer.name}

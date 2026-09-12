@@ -6,7 +6,7 @@ import { QuoteUpIcon, StarIcon } from "@hugeicons/core-free-icons";
 
 const testimonials = [
   {
-    name: "Adaeze Okonkwo",
+    name: "Patrick Jane",
     role: "Member since 2023",
     quote:
       "I have tried three other gyms nearby and none of them had coaches who actually watched my form. Forge is different.",

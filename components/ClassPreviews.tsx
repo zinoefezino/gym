@@ -8,13 +8,13 @@ const classes = [
     name: "Strength & Power",
     description:
       "Barbell work and progressive lifts that build real strength over time.",
-    image: "/hero2.jpg",
+    image: "/hero4.avif",
   },
   {
     name: "Conditioning",
     description:
       "High output intervals that build endurance and a stronger engine.",
-    image: "/hero3.jpg",
+    image: "/hero2.jpg",
   },
   {
     name: "Mobility & Recovery",
@@ -46,15 +46,16 @@ export default function ClassPreviews() {
             <Link
               key={item.name}
               href="/classes"
-              className="group relative flex aspect-[3/4] flex-col justify-end overflow-hidden"
+              className="group relative flex aspect-3/4 flex-col justify-end overflow-hidden"
             >
               <Image
                 src={item.image}
                 alt={item.name}
                 fill
+                loading="lazy"
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/40 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-charcoal via-charcoal/40 to-transparent" />
               <div className="relative z-10 p-6">
                 <h3 className="text-xl font-bold text-offwhite">{item.name}</h3>
                 <p className="mt-2 text-sm text-offwhite/70">

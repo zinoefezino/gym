@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative flex min-h-[calc(100vh-5rem)] items-end overflow-hidden">
       <Image
-        src="/hero.jpg"
+        src="/hero3.avif"
         alt="Gym floor with weight racks and open training space"
         fill
         priority
