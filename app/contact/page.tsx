@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { HugeiconsIcon } from "@hugeicons/react";
+import { ArrowRight02Icon } from "@hugeicons/core-free-icons";
 
 export default function ContactPage() {
   return (
@@ -92,9 +94,10 @@ export default function ContactPage() {
           <span>Prefer to explore first?</span>
           <Link
             href="/classes"
-            className="font-semibold text-offwhite transition-colors hover:text-red"
+            className="inline-flex items-center gap-2 text-sm font-bold text-white transition-colors hover:text-red"
           >
-            See the classes -&gt;
+            See the classes
+            <HugeiconsIcon icon={ArrowRight02Icon} size={18} strokeWidth={2} />
           </Link>
         </div>
       </div>
