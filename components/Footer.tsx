@@ -1,3 +1,4 @@
+// components/Footer.tsx
 import Link from "next/link";
 import { HugeiconsIcon } from "@hugeicons/react";
 import {
@@ -25,7 +26,7 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-gray/20 bg-charcoal">
+    <footer className="bg-charcoal">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
@@ -33,8 +34,7 @@ export default function Footer() {
               href="/"
               className="text-2xl font-bold tracking-tight text-offwhite"
             >
-              Gym
-              <span className="text-red">.</span>
+              Gym<span className="text-red">.</span>
             </Link>
             <p className="mt-4 max-w-xs text-sm text-gray">
               A gym built around real coaching, honest programming, and a floor
